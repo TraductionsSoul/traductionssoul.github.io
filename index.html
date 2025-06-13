@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services – Traductions Soul inc.</title>
+  <title>Accueil – Traductions Soul inc.</title>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lato&display=swap" rel="stylesheet">
   <style>
     body {
@@ -34,23 +34,26 @@
       max-width: 1000px;
       margin: 0 auto;
     }
-    h1, h2, h3 {
+    h1, h2 {
       font-family: 'Libre Baskerville', serif;
     }
-    .services {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
+    .hero {
+      background-color: #fff6f0;
+      text-align: center;
     }
-    .service {
-      background-color: #f9f9f9;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      padding: 2rem;
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 2rem;
     }
-    .service h3 {
-      margin-top: 0;
-      color: #e26d1f;
+    .cta {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background-color: #e26d1f;
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
     }
     footer {
       background-color: #f7f7f7;
@@ -73,29 +76,11 @@
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-
-  <section>
-    <h1>Nos services</h1>
-    <div class="services">
-      <div class="service">
-        <h3>Traduction</h3>
-        <p>Traduction professionnelle de documents du français vers l’anglais et de l’anglais vers le français, dans un souci de précision terminologique, de clarté et d’adaptation au public cible.</p>
-      </div>
-      <div class="service">
-        <h3>Révision</h3>
-        <p>Révision comparative ou unilingue de textes traduits, incluant la vérification du sens, de la cohérence stylistique, de la syntaxe et de la fluidité linguistique.</p>
-      </div>
-      <div class="service">
-        <h3>Post-édition</h3>
-        <p>Amélioration rigoureuse de contenus générés par des outils de traduction automatique, afin d’atteindre un niveau de qualité professionnelle, fidèle et idiomatique.</p>
-      </div>
-      <div class="service">
-        <h3>Correction linguistique</h3>
-        <p>Correction orthographique, grammaticale et typographique de vos documents, pour des textes irréprochables sur le fond comme sur la forme.</p>
-      </div>
-    </div>
+  <section class="hero">
+    <h1>Des communications claires, professionnelles et humaines</h1>
+    <p>Traductions Soul inc. accompagne les PME, les organismes et les entreprises depuis plus de 25 ans, en assurant des services linguistiques fiables et adaptés à leurs besoins. Notre force ? Une coordination de projet sans faille, une attention constante à la qualité et un contact humain à chaque étape.</p>
+    <a class="cta" href="services.html">Découvrir nos services</a>
   </section>
-
   <footer>
     <p>© <span style="font-family: 'Libre Baskerville', serif; font-weight: 500;">Traductions Soul inc.</span> – Tous droits réservés.</p>
   </footer>
